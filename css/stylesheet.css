@@ -1,0 +1,628 @@
+/*---------------GENERAL--------------*/
+* {
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: pristina;
+	src:url("../PRISTINA.ttf");
+}
+.block{
+	display: block;
+}
+.float{
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.container{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+/*---------------HAMBURGER MENU------------------*/
+.hamburger {
+	display: none;
+}
+.mobile-munu ul {
+ display: block;
+}
+.mobile-menu li {
+	display: block;
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+.mobile-menu a {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	padding: 16px 0;
+	font-family: 'roboto',sans-serif;
+	transition: all 0.3s ease-in-out;
+}
+.mobile-menu a:hover {
+	background-color: rgb(226,1 ,16);
+}
+.mobile-menu {
+	display: none;
+}
+
+/*---------------HEADER--------------*/
+#header{
+	background: url('../img/Header-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	height: 150vh;
+}
+#logo{
+	animation-duration: 2s;
+}
+#ul{
+	margin-top: 45px;
+}
+#ul,
+.li {
+	display: inline-block;
+}
+#head::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+nav a{
+	font-family: 'roboto', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 35px;
+	padding-top: 100%;
+}
+nav a:hover {
+	box-shadow: 10px 10px 9px -7px #000000;
+	background-color: rgb(226, 1, 16);
+}
+#special {
+	font-family: pristina;
+	color: white;
+	font-size: 150px;
+	text-align: center;
+	margin-top: 16%;
+	animation-duration: 2s;
+}
+#button {
+	margin-top: 13%;
+	font-size: 30px;
+	text-align: center;
+	animation-duration: 2s;
+}
+#button a {
+	text-decoration: none;
+	border: 7px solid white;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'roboto', sans-serif;
+	padding: 10px 50px;
+}
+
+/*---------------MENU--------------*/
+#menu-section {
+	background-image: url('../img/Black-bg.jpg');
+	height: 145vh;
+}
+#wrapper {
+	background:url('../img/white-bg.jpg') no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-bottom: 31px;
+	position: absolute;
+	top: 120%;
+}
+img[src*="Top-Banner"]{
+	margin-top:20px; 
+	width: 90%;
+}
+#menu-wrapper {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid white;
+	box-shadow: 10px 10px 20px -1px #000000;
+	margin: 0px auto;
+	width: 50%;
+	margin-top: 45px;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+#menu-text {
+	font-family: 'roboto',sans-serif;
+	font-size: 25px;
+	margin-left: 35%;
+	margin-top: 18px;
+	color: rgb(226, 1 ,16);
+	font-weight: 700;
+}
+img[src*="Fork"]{
+	margin-top: 9px;
+}
+#menu-wrapper:after{
+	clear: both;
+	content: "";
+	display:block;
+}
+#fork1{
+	margin-left: auto;
+}
+.text-wrapper {
+	position: relative;
+	bottom: 56px;
+	right: 20px;
+	color: white;
+	font-family: 'roboto',sans-serif;
+	font-weight: 700;
+}
+#row {
+	width: 100%;
+	max-width: 1100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6,
+.container-7,
+.container-8,
+.container-9{
+	flex-basis: 30%;
+}
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5,
+.container-6,
+.container-7,
+.container-8{
+	margin-top: 20px;
+}
+.container-9 img{
+	margin-top: 60%;
+	margin-left: 65%;
+}
+#row:after{
+	content: '';
+	display: block;
+	clear: left;
+}
+span{
+	font-family: 'roboto',sans-serif;
+	line-height: 1.5em;
+}
+/*---------------Restaurant--------------*/
+#restaurant-section {
+	background-image: url('../img/Restaurant-bg.jpg');
+	padding-bottom: 5%;
+}
+#content{
+	width: 50%;
+	padding-top: 4%;
+}
+#main-content{
+	text-align: center;
+	padding-top: 17%;
+	animation-duration: 2s;
+}
+#main-content:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#Restaurant,
+#Country {
+	font-family: pristina;
+	color: #ffff;
+	font-size: 3.5em;
+}
+#Country {
+	margin-bottom: 20px;
+}
+#logo-rest{
+	width: 40%;
+}
+#content-text {
+	font-size: 17px;
+	line-height: 1.4em;
+	font-family: 'roboto', sans-serif;
+	color: #ffff;
+}
+#align {
+	padding-left: 46px;
+	text-align: left;
+}
+#image-row {
+	margin-top: 4%;
+}
+#image-row img {
+	margin-right:6px; 
+}
+#last-food{
+	margin-right: 0px;
+}
+
+/*---------------CONTACT--------------*/
+#contactus{
+	background-image: url('../img/Black-bg.jpg');
+	padding-bottom: 5%;
+}
+#contact-wrapper{
+	padding-top: 13%;
+}
+#contact-wrapper:after{
+	content: '';
+	display:block;
+	clear: both;
+}
+#contact-text,
+#contact-img {
+	width: 50%;
+	text-align: center;
+	color: white;
+}
+img[src*="Contact-img"] {
+	width: 75%;
+}
+#contact-text h1 {
+	font-family: pristina;
+	font-size: 105px;
+	line-height: 0.6em;
+}
+#contact-text span {
+	font-family: pristina;
+	font-size: 50px;
+}
+#contact-text p {
+	font-family: 'roboto',sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
+	font-weight: 900;
+	text-align: left;
+	width: 391px;
+	margin-left: 19%;
+	padding-right: 4%;
+}
+#contact-text a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 60px;
+	font-size: 1.2em;
+	font-family: 'roboto', sans-serif;
+	color: #ffff;
+	font-weight: 900;
+	border: 8px solid white;
+	margin-top: 2em;
+	box-shadow: inset 10px 10px 32px 0px #000000;
+}
+#contact-img {
+	box-shadow: 10px 10px 9px -1px #000000;
+}
+#contact-img span {
+	display: inline-block;
+	font-family: pristina;
+	margin-top: 10px;
+	font-size: 1.6em;
+}
+#contact1,
+#contact2,
+#contact3{
+box-shadow: 10px 10px 9px -1px #000000;
+padding: 10px 40px;
+}
+#row-contact{
+	margin-top: 6em;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+#row-contact:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*---------------FOOTER--------------*/
+footer{
+	background-color: rgb(226, 1 , 16);
+}
+#footer {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'roboto',sans-serif;
+	color: white;
+	font-size: 1.2em;
+	padding: 15px 0;
+}
+#Food1 {
+	width: 50%;
+}
+
+
+/*---------------MEDIA QUERIES--------------*/
+@media (max-width: 1400px) {
+	#special {
+		margin-top: 20%;
+	}
+	#menu-section {
+		height: 150vh;
+	}
+	#image-row img {
+		margin-right: 27px;
+	}
+}
+@media (min-width: 1400px) {
+	#image-row img {
+		margin-right: 27px;
+	}
+}
+@media (max-width: 1200px) {
+	#special {
+		margin-top: 40%;
+	}
+	#menu-section {
+		height: 85vh;
+	}
+	#image-row img {
+		margin-right: 12px;
+	}
+}
+@media (max-width: 1098px) {
+	#special {
+		margin-top: 50%;
+	}
+	#menu-section {
+		height: 90vh;
+	}
+	#Food1{
+		width: 50%;
+	}
+	#image-row img {
+		width: 16%;
+		margin-right: 3%;
+	}
+}
+@media (max-width: 1024px) {
+	#special {
+		margin-top: 20%;
+	}
+	#logo {
+		width: 21%;
+	}
+	#imgae-row img {
+		margin-right: 6px;
+	}
+}
+@media (max-width: 992px) {
+	nav a {
+		padding-top: 35px;
+	}
+	.float-right {
+		float: none;
+		margin-left: 19px;
+	}
+	nav,
+	#logo {
+		float: none;
+	}
+	#logo{
+		display: block;
+		margin: 0 auto;
+	}
+	nav {
+		margin-left: 135px;
+	}
+	#special {
+		margin-top: 50%;
+		font-size: 100px;
+	}
+	#menu-section {
+		height: 90vh;
+	}
+	#Food1{
+		width: 50%;
+	}
+	#image-row img {
+		width: 16%;
+		margin-right: 3%;
+	}
+}
+
+@media (max-width: 768px) {
+	nav{
+		display: none;
+	}
+	#head {
+		text-align: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding:10px 30px;
+	}
+	#head::after {
+		content: none;
+	}
+	.hamburger {
+		display: block;
+	}
+	.hamburger:hover {
+		cursor: pointer;
+	}
+	.hamburger .line {
+	width: 50px;
+	height: 5px;
+	display: block;
+	background-color: white;
+	margin: 8px auto;
+	transition: all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+}
+	.hamburger.is-active .line:nth-child(2) {
+		opacity: 0;
+	}
+	.hamburger.is-active .line:nth-child(1) {
+		transform: 			translateY(13px) rotate(45deg);
+		-moz-transition:	translateY(13px) rotate(45deg);
+		-webkit-transition: translateY(13px) rotate(45deg);
+		-o-transition: 		translateY(13px) rotate(45deg);
+	}
+	.hamburger.is-active .line:nth-child(3) {
+		transform: 			translateY(-13px) rotate(-45deg);
+		-moz-transition: 	translateY(-13px) rotate(-45deg);
+		-webkit-transition: translateY(-13px) rotate(-45deg);
+		-o-transition: 		translateY(-13px) rotate(-45deg);
+	}
+	#head{
+		text-align: center;
+	}
+	#special {
+		margin-top: 15%;
+	}
+	#logo,
+	nav {
+		float: none;
+		margin: 0;
+	}
+	.container-8{
+		flex-basis: 37%;
+	}
+	.container-9 img{
+		display: none;
+	}
+	img[src*="Fork"] {
+		display: none;
+	}
+	#menu-text {
+		margin-left: none;
+	}
+	img[src*="Top-Banner"]{
+		width: 98%;
+	}
+	#menu-section {
+		height: 165vh;
+	}
+	#Food1 {
+		width: 50%;
+	}
+	#Restaurant,
+	#Country {
+		font-size: 2.5em;
+	}
+	#content-text {
+		font-size: 15px;
+	}
+	#image-row img{
+		width: 14%;
+	}
+	#contact-text h1 {
+		font-size: 80px;
+	}
+	#contact-text p {
+		margin-left: 7%;
+	}
+	#contact1,
+	#contact2,
+	#contact3 {
+		padding: 2px 12px;
+	}
+	#footer {
+		font-size: 1em;
+	}
+}
+@media (max-width: 600px) {
+	#special {
+		font-size: 5em;
+		margin-top: 97%;
+	}
+	#menu-wrapper {
+		width: 42%;
+	}
+	
+	#row {
+		display: block;
+	}
+	#content {
+		float: none;
+		width: 100%;
+		text-align: left;
+		padding-left: 46px;
+	}
+	.container-9 {
+		margin: 0 auto;
+		width: 20px;
+		height: 56px;
+	}
+	#restaurant-section {
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	#wrapper {
+		position: none;
+	}
+	#menu-section {
+		height: 348vh;
+	}
+	#Food1 {
+		width: 100%;
+		float: none;
+	}
+	#logo-rest {
+		width: 60%;
+	}
+	#contact-text {
+		font-size: 22px;
+		float: none;
+		width: 100%;
+	}
+	#contact-text p {
+		margin-left: 0;
+		margin: 0 auto;
+	}
+	#contact-img {
+		float: none;
+		width: 94%;
+		margin-top: 20px;
+	}
+	#align {
+		padding-left: 0;
+	}
+	#row-contact {
+		margin-top: 2em;
+		display: block;
+		text-align: center;
+	}
+	#contact1,
+	#contact2,
+	#contact3 {
+		padding: 20px 0;
+		float: none;
+	}
+	#image-row img {
+		display: block;
+		margin: 0 auto;
+		width: 54%;
+		margin-bottom: 24px;
+	}
+	#footer {
+		font-size: 0.5em;
+	}
+}
