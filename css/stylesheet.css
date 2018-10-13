@@ -62,9 +62,12 @@
 }
 #logo{
 	animation-duration: 2s;
+	width: 20%;
+	margin-top: 40px;
+	margin-left: 120px;
 }
 #ul{
-	margin-top: 45px;
+	margin-top: 75px;
 }
 #ul,
 .li {
@@ -81,8 +84,7 @@ nav a{
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	padding: 35px;
-	padding-top: 100%;
+	padding: 75px 25px 25px 25px;
 }
 nav a:hover {
 	box-shadow: 10px 10px 9px -7px #000000;
